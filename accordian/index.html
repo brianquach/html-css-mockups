@@ -3,33 +3,50 @@
   <head>
     <title>Accordian Mockup</title>
     <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
       <h1>Accordian</h1>
     </header>
-    <nav>
+    <nav class="side-navigation">
       <h2>Navigation</h2>
-      <ul>
-        <li>
-          <i class="fa fa-home"></i> Home
+      <ul class="nav-primary-level">
+        <li class="nav-primary-level__item">
+          <i class="fa fa-home fa--nav-item"></i> Home
         </li>
-        <li>
-          <i class="fa fa-cubes"></i> Strategy
-          <ul>
-            <li><a href="#">Top</a></li>
-            <li><a href="#">Middle</a></li>
-            <li><a href="#">Bottom</a></li>
-            <li><a href="#">Jungle</a></li>
-            <li><a href="#">Support</a></li>
+        <li class="nav-primary-level__item">
+          <i class="fa fa-cubes fa--nav-item"></i> Strategy
+          <ul class="nav-secondary-level">
+            <li class="nav-secondary-level__item">
+              <a href="#">Top</a>
+            </li>
+            <li class="nav-secondary-level__item">
+              <a href="#">Middle</a>
+            </li>
+            <li class="nav-secondary-level__item">
+              <a href="#">Bottom</a>
+            </li>
+            <li class="nav-secondary-level__item">
+              <a href="#">Jungle</a>
+            </li>
+            <li class="nav-secondary-level__item">
+              <a href="#">Support</a>
+            </li>
           </ul>
         </li>
-        <li>
-          <i  class="fa fa-question"></i> Information
-          <ul>
-            <li><a href="#">Live Chat</a></li>
-            <li><a href="#">Email</a></li>
-            <li><a href="#">FAQ</a></li>
+        <li class="nav-primary-level__item">
+          <i class="fa fa-question fa--nav-item"></i> Information
+          <ul class="nav-secondary-level">
+            <li class="nav-secondary-level__item">
+              <a href="#">Live Chat</a>
+            </li>
+            <li class="nav-secondary-level__item">
+              <a href="#">Email</a>
+            </li>
+            <li class="nav-secondary-level__item">
+              <a href="#">FAQ</a>
+            </li>
           </ul>
         </li>
       </ul>

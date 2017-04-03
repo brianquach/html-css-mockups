@@ -1,0 +1,37 @@
+
+
+.side-navigation {
+  width: 30%;
+  background-color: #9b9fa5;
+}
+
+.nav-primary-level {
+  list-style: none;
+}
+
+.nav-primary-level__item:hover {
+  background-color: #4286f4;
+  color: #45137c;
+}
+
+.nav-secondary-level {
+  list-style: none;
+  height: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 2s;
+}
+
+.nav-primary-level__item:hover .nav-secondary-level {
+  max-height: 200px;
+}
+
+.nav-secondary-level__item:hover {
+  background-color: #42f4b3;
+}
+
+.fa--nav-item {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
