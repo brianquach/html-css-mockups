@@ -1,39 +1,59 @@
 /* General */
 body {
-  background-color: #f2f2f2;
+  background-Color: #72561e;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-  background-color: #f7d86a;
+  background-color: #f4f756;
+  padding: 20px;
 }
 
 footer {
-  background-Color: #7a692f;
   text-align: center;
+  padding: 20px;
 }
 
 h1,
 h2,
+h3,
 ul,
 li {
   margin: 0;
   padding: 0;
 }
 
-* {
-  box-sizing: border-box;
+/* Page content layout */
+.content-layout {
+  display: flex;
+  background-color: #f9fafc;
+  padding: 20px;
+}
+
+nav {
+  flex: 1 100px;
+  padding: 10px;
 }
 
 main {
-  width: 70%;
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+/* News content */
+.news {
+  margin-bottom: 15px;
+}
+
+.news:nth-of-type(1) {
+  color: red;
 }
 
 /* Navigation */
-.side-navigation {
-  width: 30%;
-}
-
 .nav-primary-level {
   list-style: none;
 }
