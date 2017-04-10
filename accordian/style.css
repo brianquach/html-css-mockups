@@ -1,10 +1,11 @@
 /* General */
 body {
-  background-Color: #72561e;
+  background-Color: #66603d;
   margin: 0;
   display: flex;
   flex-direction: column;
   font-size: 16px;
+  font-family: 'Roboto', san serif;
 }
 
 header {
@@ -41,7 +42,7 @@ h3 {
 /* Page content layout */
 .content-layout {
   display: flex;
-  background-color: #f9fafc;
+  background-color: #fcfcfc;
   padding: 1.25rem;
 }
 
@@ -51,7 +52,7 @@ nav {
 }
 
 main {
-  flex: 4;
+  flex: 5;
   display: flex;
   flex-direction: column;
   padding: .625rem;
@@ -60,10 +61,10 @@ main {
 /* News content */
 .news {
   margin-bottom: 15px;
-}
-
-.news:nth-of-type(1) {
-  color: red;
+  padding: 15px 5px;
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+  background: #ffffff;
 }
 
 /* Navigation */
